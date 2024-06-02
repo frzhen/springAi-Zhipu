@@ -21,9 +21,10 @@ spring:
     ai:
         zhipuai:
             api-key: ${ZHIPU_API_KEY}
-            chat:
-                options:
-                    model: GLM-3-Turbo
-            image:
-                enabled: true
+#             the following config is not necessary for image generation
+#             chat:
+#                 options:
+#                     model: GLM-3-Turbo
+#             image:
+#                 enabled: true
 
