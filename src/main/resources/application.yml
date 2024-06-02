@@ -1,0 +1,18 @@
+logging:
+    level:
+        guru.ysy.aiexpert: DEBUG
+jdk:
+    vendor:
+        name: Oracle-JDK
+        version: ${java.version}
+gradle:
+    version: 8.8
+    DSL: Kotlin
+spring:
+    application:
+        name: zhipu-SpringAI
+        version: 0.0.1-SNAPSHOT
+        description: DEMO Spring AI project with Zhipu AI
+    output:
+        ansi:
+            enabled: always
