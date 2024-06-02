@@ -16,3 +16,11 @@ spring:
     output:
         ansi:
             enabled: always
+    config:
+        import: classpath:env/keys.env[.properties]
+    ai:
+        zhipuai:
+            api-key: ${ZHIPU_API_KEY}
+            chat:
+                options:
+                    model: GLM-3-Turbo
