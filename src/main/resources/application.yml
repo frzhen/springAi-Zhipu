@@ -24,3 +24,6 @@ spring:
             chat:
                 options:
                     model: GLM-3-Turbo
+            image:
+                enabled: true
+
